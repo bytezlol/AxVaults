@@ -33,6 +33,7 @@ public class ItemPicker {
     }
 
     public void open(@NotNull Vault vault) {
+        if (!CONFIG.getBoolean("enable-item-picker", true)) return;
         open(vault, 1, 1);
     }
 

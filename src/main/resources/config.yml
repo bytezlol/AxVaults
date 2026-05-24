@@ -10,8 +10,12 @@ auto-save-minutes: 5
 # how many rows should the /axvault selector menu have?
 vault-selector-rows: 6
 
+# should players be able to change the icon of their vaults?
+enable-item-picker: true
+
 # how many rows should the vault icon picker have?
 item-picker-rows: 6
+
 
 # how many rows should vaults have?
 # you can override this with the axvaults.rows.# permission
