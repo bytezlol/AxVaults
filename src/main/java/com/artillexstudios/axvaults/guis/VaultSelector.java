@@ -62,7 +62,7 @@ public class VaultSelector {
         if ((prev = MESSAGES.getSection("gui-items.previous-page")) != null) {
             final GuiItem item1 = new GuiItem(ItemBuilder.create(prev).get());
             item1.setAction(event -> gui.previous());
-            gui.setItem(rows, 3, item1);
+            gui.setItem(rows, 4, item1);
         }
 
         final Section next;
@@ -78,7 +78,7 @@ public class VaultSelector {
                     });
                 }
             });
-            gui.setItem(rows, 7, item2);
+            gui.setItem(rows, 6, item2);
         }
 
         final Section close;

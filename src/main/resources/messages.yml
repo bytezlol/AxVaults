@@ -48,15 +48,19 @@ gui-items:
   close:
     material: BARRIER
     name: "&#FF3333&lClose"
+    slot: 9
   back:
     material: BARRIER
     name: "&#FF3333&lBack"
+    slot: 5
   previous-page:
     material: ARROW
     name: "&#FF6600&lPrevious Page"
+    slot: 3
   next-page:
     material: ARROW
     name: "&#FFCC00&lNext Page"
+    slot: 7
 
 # you can disable any messages by setting it to ""
 vault:
